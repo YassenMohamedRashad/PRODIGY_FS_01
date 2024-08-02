@@ -24,8 +24,8 @@ This project implements a user authentication system with secure login and regis
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/repository-name.git
-   cd repository-name
+   git clone https://github.com/YassenMohamedRashad/PRODIGY_FS_01.git
+   cd PRODIGY_FS_01
    ```
 
 2. **Install dependencies:**
