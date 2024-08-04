@@ -32,7 +32,11 @@ class UserFactory extends Factory
             'remember_token' => Str::random(10),
         ];
     }
-
+    public function Admin(){
+        return $this->state(fn (array $attributes) => [
+            'role' => 'admin',
+        ]);
+    }
     /**
      * Indicate that the model's email address should be unverified.
      */
